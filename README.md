@@ -8,19 +8,28 @@ Note: Use Excel for all problems.  Remember that on all Excel assignments, **som
 
 Take a look at process flow diagram (PFD) for the toluene hydroalkylation process in the figure below.
 
+<img scr="https://github.com/uw-cheme375/HW10/raw/master/pfd_hda.jpg">
+
+<br>
+
+<img scr="https://github.com/uw-cheme375/HW10/raw/master/stream_table1_1.jpg">
+
+<br>
+
+<img scr="https://github.com/uw-cheme375/HW10/raw/master/stream_table1_2.jpg">
 
 
 The process converts toluene and hydrogen to benzene and methane via the following reaction:
 
-<img src="https://latex.codecogs.com/gif.latex?C_7H_8&space;&plus;&space;H_2&space;\rightarrow&space;C_6H_6&space;&plus;&space;CH_4" title="C_7H_8 + H_2 \rightarrow C_6H_6 + CH_4" /></a>
+<img src="https://latex.codecogs.com/gif.latex?C_7H_8&space;&plus;&space;H_2&space;\rightarrow&space;C_6H_6&space;&plus;&space;CH_4" title="C_7H_8 + H_2 \rightarrow C_6H_6 + CH_4" />
 
 It is desired to estimate the volume of the reactor (R-101), for which it is necessary to have kinetic expressions. For the catalytic hydroalyklation of toluene, assume that the reaction is kinetically controlled with the following kinetics:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=-r_{tol}&space;=&space;kc_{tol}c_{tol}^{0.5}&space;\&space;\&space;\&space;\frac{kmol}{m_{reactor}^3s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?-r_{tol}&space;=&space;kc_{tol}c_{tol}^{0.5}&space;\&space;\&space;\&space;\frac{kmol}{m_{reactor}^3s}" title="-r_{tol} = kc_{tol}c_{tol}^{0.5} \ \ \ \frac{kmol}{m_{reactor}^3s}" /></a>
+<img src="https://latex.codecogs.com/gif.latex?-r_{tol}&space;=&space;kc_{tol}c_{tol}^{0.5}&space;\&space;\&space;\&space;\frac{kmol}{m_{reactor}^3s}" title="-r_{tol} = kc_{tol}c_{tol}^{0.5} \ \ \ \frac{kmol}{m_{reactor}^3s}" />
 
 where
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=k&space;=&space;2.833&space;\times&space;10^7&space;e^{-\frac{17814}{T(K)}}&space;\&space;\&space;\frac{m^{1.5}}{kmol^{0.5}s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?k&space;=&space;2.833&space;\times&space;10^7&space;e^{-\frac{17814}{T(K)}}&space;\&space;\&space;\frac{m^{1.5}}{kmol^{0.5}s}" title="k = 2.833 \times 10^7 e^{-\frac{17814}{T(K)}} \ \ \frac{m^{1.5}}{kmol^{0.5}s}" /></a>
+<img src="https://latex.codecogs.com/gif.latex?k&space;=&space;2.833&space;\times&space;10^7&space;e^{-\frac{17814}{T(K)}}&space;\&space;\&space;\frac{m^{1.5}}{kmol^{0.5}s}" title="k = 2.833 \times 10^7 e^{-\frac{17814}{T(K)}} \ \ \frac{m^{1.5}}{kmol^{0.5}s}" />
 
 With these kinetics, simulate the reactor as a two-stage packed-beck adiabatic reactor with a "cold shot" (Stream 7) injected at the inlet to the second bed. The maximum temperature in the reactor should not exceed 655°C, and this will occur at the exit of both beds; that is, design the system for this maximum outlet temperature for both packed beds.
 
