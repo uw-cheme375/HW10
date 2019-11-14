@@ -8,15 +8,15 @@ Note: Use Excel for all problems.  Remember that on all Excel assignments, **som
 
 Take a look at process flow diagram (PFD) for the toluene hydroalkylation process in the figure below.
 
-<img scr="https://github.com/uw-cheme375/HW10/raw/master/pfd_hda.jpg">
+<img src="https://github.com/uw-cheme375/HW10/raw/master/pfd_hda.jpg">
 
 <br>
 
-<img scr="https://github.com/uw-cheme375/HW10/raw/master/stream_table1_1.jpg">
+<img src="https://github.com/uw-cheme375/HW10/raw/master/stream_table1_1.jpg">
 
 <br>
 
-<img scr="https://github.com/uw-cheme375/HW10/raw/master/stream_table1_2.jpg">
+<img src="https://github.com/uw-cheme375/HW10/raw/master/stream_table1_2.jpg">
 
 
 The process converts toluene and hydrogen to benzene and methane via the following reaction:
