@@ -2,7 +2,11 @@
 
 The assignment is due midnight **before** the beginning of the next class period.
 
-Note: Use Excel for all problems.  Remember that on all Excel assignments, **some points will be given for following the recommended practice of naming variables and for presentation (formatting)**.  For each problem please use a separate worksheet and highlight your answers!
+Note: Turn in all Aspen files with this homework assignment. Please also add in comments using text boxes under the *Format* tab. **Some points will be given for following the for presentation (formatting)**.  For each problem please use a separate Aspen file!
+
+## Problem 1 (20 points): Txy diagrams
+
+Using the Analysis tools in Aspen, create a Txy diagram for the methanol-water system and the methanol chloroform system. Use the UNIFAC, UNIQUAC, and Peng-Robinson thermodynamics packages and compare the Txy diagrams for each system. Copy this data to Excel to plot the data in Excel. Also compare to Txy vapor-liquid equilibrium data found on line. Comment on any differences you see and explain.
 
 ## Problem 2 (20 points): Reactor design
 
@@ -12,11 +16,11 @@ Take a look at process flow diagram (PFD) for the toluene hydroalkylation proces
 
 <br>
 
-<img src="https://github.com/uw-cheme375/HW10/raw/master/streamtable_1.jpg">
+<img src="https://github.com/uw-cheme375/HW10/raw/master/streamtable_2.jpg">
 
 <br>
 
-<img src="https://github.com/uw-cheme375/HW10/raw/master/streamtable_2.jpg">
+<img src="https://github.com/uw-cheme375/HW10/raw/master/streamtable_1.jpg">
 
 
 The process converts toluene and hydrogen to benzene and methane via the following reaction:
@@ -34,3 +38,15 @@ where
 With these kinetics, simulate the reactor as a two-stage packed-beck adiabatic reactor with a "cold shot" (Stream 7) injected at the inlet to the second bed. The maximum temperature in the reactor should not exceed 655°C, and this will occur at the exit of both beds; that is, design the system for this maximum outlet temperature for both packed beds.
 
 In order to solve this problem, you must select an appropriate thermodynamics package. You can use the Methods Assistant in the Methods section that will help you given the components in your stream table. Also, be very careful when entering in the kinetics of this reaction. You will have to do some unit conversions first.
+
+## Problem 3 (20 points): Distillation Columns
+
+Take a look at the PFD for the catalytic dehydration of methanol to produce dimethyl ether (DME) below:
+
+<img src="https://github.com/uw-cheme375/HW10/raw/master/pfd_dme.jpg">
+
+<br>
+
+<img src="https://github.com/uw-cheme375/HW10/raw/master/streamtable_dme.jpg">
+
+For the system DME/methanol/water, determine the binary interaction parameters (BIPs) used Aspen for each of these thermodynamic models: NRTL, Wilson, and UNIQUAC. Simulate the distillation column T-202 using a shortcut module for each of these models, and compare the number of theoretical stages required for the specified recoveries and R/R_min = 1.5.
